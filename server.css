@@ -1,0 +1,96 @@
+.body{
+  
+}
+.t1{
+  font-family: monospace;
+}
+.t1, tr, th, td{
+  border: 1px solid black;
+  text-align: center;
+  align-content: center;
+  width: 100%
+}
+
+#clock {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: monospace;
+}
+.h1{
+  text-align: center;
+  border-style: solid;
+  border-width: 0.3px;
+  border-left: 40px;
+  border-right: 40px;
+  height: 40px;
+  font-family: Arial;
+}
+.p1{
+  font-size: 8px;
+  border-style: solid;
+  font-family: Monospace;
+  border-width: 100%;
+  text-align: center;
+}
+
+.server-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.server {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  height: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.lights {
+  display: flex;
+  gap: 5px;
+}
+
+.light {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: red;
+  animation: blink 5s infinite;
+}
+
+.light:nth-child(even) {
+  animation-delay: 1.6s;
+}
+
+@keyframes blink {
+  0%, 100% {
+    background-color: red;
+  }
+  50% {
+    background-color: green;
+  }
+  20% {
+    background-color: yellow;
+  }
+}
+
+.lines {
+  width: 40px;
+  height: 5px;
+  background-color: black;
+  margin-left: 5px;
+}
+.p2{
+  font-size: 3px;
+  font-family: monospace;
+}
+.Sbox{
+  align-content: center;
+  margin-left: 70px
+}
