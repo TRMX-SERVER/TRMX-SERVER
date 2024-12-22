@@ -121,3 +121,6 @@ html, body {
   background: green;
   font-family: Sans-Serif;
 }  
+.problem{
+  font-family: monospace;
+}
