@@ -1,5 +1,5 @@
 function redeemCode() {
-    const correctCode = "TRMX";
+    const correctCode = "RLMe";
     const userCode = document.getElementById("redeemCode").value.trim();
     const messageElement = document.getElementById("message");
 
